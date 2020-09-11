@@ -1,12 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HomeComponent } from './Home/home/home.component';
-import { FooterComponent } from './shared/layout/footer/footer/footer.component';
-import { NavbarComponent } from './shared/layout/navbar/navbar/navbar.component';
-import { HeaderComponent } from './shared/layout/header/header/header.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { HomeComponent } from "./Home/home/home.component";
+import { FooterComponent } from "./shared/layout/footer/footer.component";
+import { NavbarComponent } from "./shared/layout/navbar/navbar.component";
+import { HeaderComponent } from "./shared/layout/header/header.component";
 
 @NgModule({
   declarations: [
@@ -14,13 +14,10 @@ import { HeaderComponent } from './shared/layout/header/header/header.component'
     HomeComponent,
     FooterComponent,
     NavbarComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
